@@ -8,14 +8,14 @@ import Checkout from './pages/Checkout'
 
 export default function App() {
   return (
-    <Layout>
-      <Routes>
+    <Routes>
+      <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/shop/:slug" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
-      </Routes>
-    </Layout>
+      </Route>
+    </Routes>
   )
 }
