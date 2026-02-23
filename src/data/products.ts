@@ -20,7 +20,7 @@ export const categories = [
   { id: 'accessories', name: 'Accessories' },
 ]
 
-const placeholder = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600'
+// const placeholder = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600'
 
 export const products: Product[] = [
   {
